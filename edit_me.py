@@ -6,7 +6,10 @@ def find_max(lst):
 
     #
     #  YOUR CODE GOES HERE
-    #
+    #Author: Yui Niimura 1/21/2024
+    for i in range(1,len(lst)):
+        if lst[i] > current_max:
+            current_max = lst[i]
 
     return current_max
 
